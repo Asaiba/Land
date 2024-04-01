@@ -1,17 +1,23 @@
+body{
+  background-color: #052400;
+}
 .container {
-  max-width: 400px;
+  max-width: 100%;
+  text-align: center;
+  font-family: Algerian;
   margin: 150px auto;
   padding: 30px;
   border: 0.5px solid #888;
   border-radius: 5px;
-  background: #111224;
+  background: #052400;
 }
 h1 {
   color: #888;
 }
 input {
+  text-align: center;
   border: none;
-  background: #111224;
+  background: #052400;
   color: #888;
   outline: none;
   border-bottom: 1px solid #888;
@@ -28,7 +34,7 @@ button {
 button:hover,
 button:active {
   background: #888;
-  color: #111224;
+  color: #052400;
 }
 ul {
   list-style-type: none;
@@ -48,7 +54,7 @@ li {
 }
 
 #confetti {
-  background: #0d0e1c;
+  background: #052400;
   height: 100%;
   left: 0px;
   position: fixed;
